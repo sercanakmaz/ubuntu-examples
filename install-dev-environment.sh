@@ -129,3 +129,14 @@
 # sudo apt-add-repository ppa:ansible/ansible
 # sudo apt update
 # sudo apt install ansible
+
+######## Python
+
+# sudo apt install python-pip
+# sudo apt install python3-pip
+# sudo apt-get install python3.6
+
+######## Inotify Watches Limit
+
+sudo echo "fs.inotify.max_user_watches = 524288" >> "/etc/sysctl.conf"
+sudo sysctl -p --system
