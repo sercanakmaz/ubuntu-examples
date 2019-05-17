@@ -83,8 +83,11 @@
 
 ######## Azure Data Studio
 
+
+## Use below command when you get this error: /var/lib/dpkg/info/azuredatastudio.postinst: line 70: /etc/apt/sources.list.d/vscode.list: No such file or directory
+## sudo mkdir /etc/apt/sources.list.d && sudo touch /etc/apt/sources.list.d/vscode.list
 # wget https://azuredatastudiobuilds.blob.core.windows.net/releases/1.5.2/azuredatastudio-linux-1.5.2.deb
-# sudo apt install azuredatastudio-linux-1.5.2.deb
+# sudo apt install ./azuredatastudio-linux-1.5.2.deb
 
 ######## Postman
 
