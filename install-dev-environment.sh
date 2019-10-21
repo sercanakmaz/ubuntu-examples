@@ -142,6 +142,10 @@
 
 # sudo snap install redis-desktop-manager
 
+######## Intellij Idea Community
+
+# sudo snap install intellij-idea-community --classic --edge
+
 ######## Inotify Watches Limit
 
 # sudo echo "fs.inotify.max_user_watches = 524288" >> "/etc/sysctl.conf"
